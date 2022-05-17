@@ -1,8 +1,8 @@
-# **sena-base-2021 v5.1.0**
+# **La interpretación y las técnicas de verificación**
 
-## **https://ecored-sena.github.io/ECORED_TEMPLATE_REPO/**
+## **Enlace GitHubPages**
 
-[https://ecored-sena.github.io/ECORED_TEMPLATE_REPO/](https://ecored-sena.github.io/ECORED_TEMPLATE_REPO/)
+[https://ecored-sena.github.io/TECNOLOGO_LENGUAJE_SENAS_CF8/](https://ecored-sena.github.io/TECNOLOGO_LENGUAJE_SENAS_CF8/)
 
 #
 

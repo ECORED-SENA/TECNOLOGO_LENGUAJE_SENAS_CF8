@@ -1,9 +1,10 @@
 export default {
   global: {
-    componenteFormativo: 'NOMBRE DEL COMPONENTE FORMATIVO',
-    descripcionCurso: 'BREVE DESCRIPCIÓN',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
-    fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
+    componenteFormativo: 'La interpretación y las técnicas de verificación',
+    descripcionCurso:
+      'El intérprete como el mediador comunicativo y basado en su condición de ser biológico, psicológico y social, requiere poseer competencias que le permitan desempeñar su rol de manera óptima. Es así, como una preocupación destacable en el contexto colombiano es la formación de los intérpretes, con el fin de que estos respondan a las necesidades de los usuarios del servicio de interpretación considerando además que actualmente, este ejercicio laboral ha sido una labor que a lo largo de los últimos 20 años se ha catalogado como la prestación de un servicio de manera empírica.',
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
+    fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.svg'),
   },
   menuPrincipal: {
     menu: [
@@ -22,31 +23,104 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Ejercicio de la interpretación',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '1.1',
-            titulo: 'Titulo de segundo nivel',
+            titulo: 'Análisis contrastivo de la lengua',
             hash: 't_1_1',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.2',
+            titulo: 'Equivalencias entre las dos lenguas',
+            hash: 't_1_2',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.3',
+            titulo: 'Reestructuración del mensaje',
+            hash: 't_1_3',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.4',
+            titulo:
+              'Valoración del proceso de interpretación, de pertinencia y de coherencia del discurso',
+            hash: 't_1_4',
           },
         ],
       },
-
       {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'El intérprete de apoyo',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            icono: 'far fa-file-alt',
+            numero: '2.1',
+            titulo: 'Perfil del intérprete de apoyo',
+            hash: 't_2_1',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '2.2',
+            titulo: '2 Funciones y logística',
+            hash: 't_2_2',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '2.3',
+            titulo: 'Estrategias, relevos y materiales',
+            hash: 't_2_3',
+          },
+        ],
       },
       {
         nombreRuta: 'tema3',
         icono: 'far fa-file-alt',
         numero: '3',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Técnicas de verificación',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            icono: 'far fa-file-alt',
+            numero: '3.1',
+            titulo: 'Definición y conceptos',
+            hash: 't_3_1',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '3.2',
+            titulo: 'Estrategias',
+            hash: 't_3_2',
+          },
+        ],
+      },
+      {
+        nombreRuta: 'tema4',
+        icono: 'far fa-file-alt',
+        numero: '4',
+        titulo: 'Análisis y ajustes',
+        desarrolloContenidos: true,
+        subMenu: [
+          {
+            icono: 'far fa-file-alt',
+            numero: '4.1',
+            titulo: 'Definición y conceptos',
+            hash: 't_4_1',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '4.2',
+            titulo: 'Estrategias de mejoramiento',
+            hash: 't_4_2',
+          },
+        ],
       },
     ],
     subMenu: [
@@ -88,34 +162,74 @@ export default {
       },
     ],
   },
-  complementario: [
+  referencias: [
     {
-      texto: 'Nombre del material',
-      tipo: 'tipo',
-      link: 'https://www.google.com/',
+      referencia:
+        'Burad, V. (2009). Una teoría interpretativa para el binomio lengua de señas-lengua hablada.',
+      link:
+        'http://www.culturasorda.eu/resources/Burad_teoria_interpretativa_binomio_lengua_senas_lengua_hablada_2009.pdf',
     },
     {
-      texto: 'Nombre del material',
-      tipo: 'tipo',
-      descarga: '/downloads/prueba.pdf',
+      referencia:
+        'Decreto 2369 de 1997. Por medio del cual se reglamenta parcialmente la Ley 324 de 1996. Septiembre 22 de 1996. D.O. 43137.',
+    },
+    {
+      referencia:
+        'Gauthier, (2016). Ensayando sobre la interpretación en Lengua de Señas Venezolana.',
+      link:
+        'https://cultura-sorda.org/ensayando-sobre-la-interpretacion-en-lengua-de-senas-venezolana/',
+    },
+    {
+      referencia:
+        'INSOR (2018). La enseñanza de la lengua escrita como segunda lengua en la básica primaria. Una experiencia desde el PEBBI.',
+      link:
+        'http://www.insor.gov.co/home/wp-content/uploads/filebase/cart_lengua_esc.pdf ',
+    },
+    {
+      referencia:
+        'INSOR (2019). Caracterización de ciudadanos, usuarios y grupos de interés.',
+      link:
+        'http://www.insor.gov.co/home/descargar/Caracterizacion_ciudadano_usuarios_grupos_interes_2019.pdf',
+    },
+    {
+      referencia:
+        'Lado, R. (1957). Linguistics across cultures: Applied linguistics for language teachers. University of Michigan Press: Ann Arbor.',
+    },
+    {
+      referencia:
+        'Ley 324 de 1996. Por la cual se crean algunas normas a favor de la población sorda. Octubre 11 de 1996. D.O. 42899.',
+    },
+    {
+      referencia:
+        'Martínez, D. L., Barreto, A. G., Corredor, A., & Zapata, S. A. (2018). Formación en Lengua de Señas Colombiana LSC: Una sistematización de la experiencia de FENASCOL. Libros Universidad Nacional Abierta ya Distancia.',
+    },
+    {
+      referencia:
+        'Resolución 10185 de 2018. Por la cual se reglamenta el proceso de reconocimiento de intérpretes oficiales de la Lengua de Señas Colombiana - Español y se deroga la Resolución 5274 de 2017. 26 de junio de 2018. D.O. 50.636 ',
     },
   ],
   glosario: [
     {
-      termino: 'Término',
-      significado: 'Definición',
+      termino: 'Pragmática',
+      significado:
+        'Parte de la lingüística que se enfoca en el estudio del lenguaje y cómo se relacionan los hablantes y el contexto.',
     },
     {
-      termino: '<em>Término</em>',
-      significado: 'Definición',
+      termino: 'Segundo intérprete',
+      significado: 'Intérprete de apoyo.',
+    },
+    {
+      termino: 'Traslatorio',
+      significado: 'De cambiar, mover o transferir de una lengua a otra.',
     },
   ],
-  referencias: [
+  complementario: [
     {
-      referencia:
-        'Zlackman, C. (2012). 100 años de moda. Sistema de Bibliotecas SENA:',
+      texto:
+        'Burad, V. (2009). Una teoría interpretativa para el binomio lengua de señas-lengua hablada.',
+      tipo: 'Artículo',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/primo-explore/fulldisplay?docid=sena_aleph000060086&vid=SENA&search_scope=sena_completo&tab=sena_completo&lang=es_ES&context=L',
+        'http://www.culturasorda.eu/resources/Burad_teoria_interpretativa_binomio_lengua_senas_lengua_hablada_2009.pdf',
     },
   ],
   creditos: {
@@ -131,7 +245,7 @@ export default {
         nombre: 'Rafael Neftalí Lizcano Reyes',
         cargo: 'Asesor metodológico y pedagógico',
         centro:
-          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
     ],
     desarrolloProducto: [
@@ -139,48 +253,53 @@ export default {
         nombre: 'Francisco José Lizcano Reyes',
         cargo: 'Responsable del equipo',
         centro:
-          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Leyson Fabian Castaño Perez',
+        cargo: 'Soporte organizacional',
+        centro: 'Centro de Comercio y Servicios Regional Tolima',
+      },
+      {
+        nombre: ['Nombre 1', 'Nombre 2'],
         cargo: 'Diseño web',
         centro:
-          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: 'Marcia Elizabeth Solano Alvarez',
+        cargo: 'Desarrollo Front-End',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
         nombre: 'Nombre',
         cargo: 'Producción audiovisual',
         centro:
-          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
-      },
-      {
-        nombre: 'Nombre',
-        cargo: 'Desarrollo front-end',
-        centro:
-          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
         nombre: 'Nombre',
         cargo: 'Validación de diseño y contenido',
         centro:
-          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
     ],
     gestoresRepositorio: [
       {
         nombre: 'Álvaro Andrés Angarita Ramirez',
         cargo: 'Validación y vinculación en plataforma LMS',
-        centro: 'Centro de Comercio y Servicios - Regional Tolima',
+        centro: 'Centro de Comercio y Servicios Regional Tolima',
       },
       {
         nombre: 'Daniel Felipe Varón Molina',
         cargo: 'Validación y vinculación en plataforma LMS',
-        centro: 'Centro de Comercio y Servicios - Regional Tolima',
+        centro: 'Centro de Comercio y Servicios Regional Tolima',
       },
       {
         nombre: 'Milady Tatiana Villamil Castellanos',
         cargo: 'Validación y vinculación en plataforma LMS',
-        centro: 'Centro de Comercio y Servicios - Regional Tolima',
+        centro: 'Centro de Comercio y Servicios Regional Tolima',
       },
     ],
   },
