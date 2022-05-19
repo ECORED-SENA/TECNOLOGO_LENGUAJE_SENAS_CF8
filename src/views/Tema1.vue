@@ -105,7 +105,9 @@
         .bloque-texto-b.color-secundario.p-4
           .bloque-texto-b__texto
             i.fas.fa-quote-left
-            h6.mb-4 “El que realiza la interpretación debe tener en cuenta por lo menos modelos cognitivos de pensamiento, modelos de interacción comunicativa y estrategias de interpretación para salvar diferencias situacionales”. (Gauthier, 2016). 
+            h6.mb-4 “El que realiza la interpretación debe tener en cuenta por lo menos modelos cognitivos de pensamiento, modelos de interacción comunicativa y estrategias de interpretación para salvar diferencias situacionales”. 
+            br
+            p(style= "margin-left: 80%;").ms-5.ms-md-0 (Gauthier, 2016) 
             i.fas.fa-quote-right
 
    
