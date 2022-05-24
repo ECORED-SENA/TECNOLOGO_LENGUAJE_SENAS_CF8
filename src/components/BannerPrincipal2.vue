@@ -5,14 +5,14 @@
   )
     .row.banner-principal__row.position-relative.justify-content-center.align-items-center
       .col-lg-7.col-xxl-6.py-sm-5.banner-principal__info.ps-5
-        .banner-principal__componente(style= "margin-left: 0.5rem")
+        .banner-principal__componente
           h1.mb-0(v-html="globalData.componenteFormativo")
         .col-lg-12
-          .banner-principal__descripcion(style= "margin-left: 0.5rem")
+          .banner-principal__descripcion
             p.mb-0(v-html="globalData.descripcionCurso")
-        .banner-principal__accion(style= "margin-left: 0.5rem")
+        .banner-principal__accion
           router-link.boton(:to="{name: iniciarLnk.nombreRuta }")
-            span.me-1 Iniciar
+            span Iniciar
             i.fas.fa-angle-right
 
       .d-none.d-lg-block.col-lg-6.px-0.banner-principal__img.img-banner
@@ -49,35 +49,42 @@ export default {
   height: 100% !important
   width: 10%
 .banner-principal__info
-  padding-left: 80px  !important
-  z-index: 3
-  padding:
+  padding-left: 1rem
 
 
 
 .banner-principal
   p, h1, h2, h3, h4, h5, h6
     color: $color-banner-text
+    margin-left: 32px
     @media (max-width: $bp-max-xs)
-      margin-left: -50px
+      margin-left: 9px
+      margin-top: -12px
 
   .tarjeta
-    background-size: contain
+    background-size: cover
     background-position: center
     background-repeat: no-repeat
     top: 49px
     margin-bottom: 70px
+    height: 500px
     @media (max-width: 992px)
       background-size: cover
       background-position: center
       background-repeat: no-repeat
       top: 49px
       margin-bottom: 50px
+      width: 100%
+      height: 555px
+
 
   &__info
     display: flex
     flex-direction: column
     justify-content: center
+    margin-left: 82px
+    @media (max-width: $bp-max-xs)
+      margin-left: 9px
 
   &__programa
     display: flex
@@ -93,15 +100,19 @@ export default {
 
       @media (max-width: $bp-max-xs)
         font-size: 2em
-        margin-left: -40px
-        margin-top: 10px
+        margin-left: 10px
+        margin-top: 7px
 
   &__descripcion
     margin-bottom: 20px
     margin-left: -40px
     @media (max-width: $bp-max-xs)
-      margin-left: -40px
       margin-right: 24px
+
+  &__accion
+    margin-left: -8px
+    @media (max-width: $bp-max-xs)
+      margin-left: -29px
 
   &__row
     @if $banner-principal-img-x == 'derecha'
@@ -117,7 +128,9 @@ export default {
 
   &__img
     animation: scale 5s ease-in-out infinite alternate
-    width: 34.5%
+    width: 38.6%
+    margin-left: 30px
+    margin-top: 8px
     z-index: 9
 
 
@@ -147,21 +160,20 @@ export default {
     position: absolute
     width: 36px
     top: 10rem
-    left: 9%
+    left: 3%
   &_2
     animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
-    width: 420px
-    bottom: 15px
-    box-shadow:
-    left: 61%
+    width: 450px
+    bottom: 100px
+    left: 63%
     z-index: 3
   &_3
     animation: float1 3.8s ease-in-out infinite alternate
     position: absolute
     width: 35px
-    top: 22rem
-    left: 61%
+    top: 25rem
+    left: 58%
   &_4
     animation: float1 4s ease-in-out infinite alternate
     position: absolute
@@ -172,19 +184,19 @@ export default {
   &_5
     animation: giro .9s ease-in-out infinite alternate
     position: absolute
-    width: 400px
-    top: 1rem
-    left: 62%
+    width: 480px
+    top: 3rem
+    left: 61%
     z-index: 0
     @keyframes giro
   &_6
     filter: blur(2px)
     animation: float1 2.7s ease-in-out infinite alternate
     position: absolute
-    width: 89px
+    width: 100px
     bottom: -20rem
     box-shadow: none
-    left: 35.6%
+    left: 31.3%
     z-index: 1
   &_7
     animation: float1 2.5s ease-in-out infinite alternate
@@ -209,7 +221,7 @@ export default {
     position: absolute
     width: 69px
     top: 3%
-    right: 7%
+    right: 1%
 
 
 
