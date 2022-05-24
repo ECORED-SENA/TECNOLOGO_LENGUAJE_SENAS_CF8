@@ -117,8 +117,9 @@ export default {
 
   &__img
     animation: scale 5s ease-in-out infinite alternate
-    width: 40%
+    width: 34.5%
     z-index: 9
+
 
 
     @if $banner-principal-img-y == 'arriba'
@@ -146,7 +147,7 @@ export default {
     position: absolute
     width: 36px
     top: 10rem
-    left: 3%
+    left: 9%
   &_2
     animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
@@ -173,7 +174,7 @@ export default {
     position: absolute
     width: 400px
     top: 1rem
-    left: 64%
+    left: 62%
     z-index: 0
     @keyframes giro
   &_6
@@ -183,7 +184,7 @@ export default {
     width: 89px
     bottom: -20rem
     box-shadow: none
-    right: 42rem
+    left: 35.6%
     z-index: 1
   &_7
     animation: float1 2.5s ease-in-out infinite alternate
@@ -208,7 +209,7 @@ export default {
     position: absolute
     width: 69px
     top: 3%
-    right: 2%
+    right: 7%
 
 
 

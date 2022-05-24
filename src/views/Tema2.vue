@@ -12,7 +12,7 @@
         figure
           img(src='@/assets/curso/tema1/img01.png' data-aos="zoom-in-down")
     
-    p.m-0.mb4 Como cualquier otro intérprete de lengua de señas, el intérprete de apoyo, o segundo intérprete, es un experto con las competencias necesarias en lengua de señas y el español, capaz de transmitir señas o palabras a su compañero sin alterar el mensaje ni interrumpirlo.
+    p.m-0.mb-4 Como cualquier otro intérprete de lengua de señas, el intérprete de apoyo, o segundo intérprete, es un experto con las competencias necesarias en lengua de señas y el español, capaz de transmitir señas o palabras a su compañero sin alterar el mensaje ni interrumpirlo.
 
     Separador
 
