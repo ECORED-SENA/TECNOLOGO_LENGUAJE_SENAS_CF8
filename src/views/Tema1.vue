@@ -25,35 +25,35 @@
     .row.mb-5
       .col-12.col-md-4
         .tarjeta.color-acento-botones.p-2
-          p.m-0.text-center Propósito del análisis contrastivo
+          h3.m-0.text-center Propósito del análisis contrastivo
 
     .row.mb-5
       .col-sm-6.col-lg-4.mb-4.mb-sm-0
-        .tarjeta--boton.color-acento-contenido.text-white--hover.p-4
+        .tarjeta--boton.color-acento-contenido.text-white--hover.p-4.height_3
           .row.justify-content-center.mb-3
             .col-7
               figure
                 img.img56.height_1.mx-auto.d-block(src='@/assets/curso/tema1/img02.svg', alt='Texto que describa la imagen')
 
-          p.m-0.text-center.text-small.mx-4 El análisis y detección de las convergencias y divergencias entre las lenguas.
+          p.mx-3.text-center El análisis y detección de las convergencias y divergencias entre las lenguas.
 
       .col-sm-6.col-lg-4.mb-4.mb-sm-0
-        .tarjeta--boton.color-acento-contenido.text-white--hover.p-4
+        .tarjeta--boton.color-acento-contenido.text-white--hover.p-4.height_3
           .row.justify-content-center.mb-3
             .col-7
               figure
                 img.img56.height_1.mx-auto.d-block(src='@/assets/curso/tema1/img03.svg', alt='Texto que describa la imagen')
 
-          p.m-0.text-center.text-small La predicción y explicación de los problemas o dificultades que se generan a la hora de la interpretación.
+          p.mx-3.text-center La predicción y explicación de los problemas o dificultades que se generan a la hora de la interpretación.
 
       .col-sm-6.col-lg-4.mb-4.mb-sm-0
-        .tarjeta--boton.color-acento-contenido.text-white--hover.p-4
+        .tarjeta--boton.color-acento-contenido.text-white--hover.p-4.height_3
           .row.justify-content-center.mb-3
             .col-7
               figure
                 img.img56.mx-auto.d-block(src='@/assets/curso/tema1/img04.svg', alt='Texto que describa la imagen')
 
-          p.m-0.text-center.text-small.mx-3 La contribución al desarrollo del ejercicio de la interpretación de lengua de señas colombiana.
+          p.text-center.mx-3 La contribución al desarrollo del ejercicio de la interpretación de lengua de señas colombiana.
 
     p.m-0.mb-5 Para la realización de un análisis contrastivo es necesario tener algunos criterios claros, y para ello, se debe conocer la organización de la estructura del discurso, la apropiación gramatical, el estilo de la conversación y el estilo del hablante - señante. 
 
@@ -83,19 +83,19 @@
           ul.lista-ul.margin_left1
             li
               i.fas.far.fa-check
-              p.m-0.text-small  Es claro y directo.
+              p.m-0 Es claro y directo.
             li
               i.fas.far.fa-check
-              p.m-0.text-small  Es creativo
+              p.m-0 Es creativo
             li
               i.fas.far.fa-check
-              p.m-0.text-small  Es fiel al discurso.
+              p.m-0 Es fiel al discurso.
             li
               i.fas.far.fa-check
-              p.m-0.text-small  Genera credibilidad y confianza.
+              p.m-0 Genera credibilidad y confianza.
             li
               i.fas.far.fa-check
-              p.m-0.text-small  Produce alguna respuesta positiva.
+              p.m-0 Produce alguna respuesta positiva.
 
     p.mb4 En la reestructuración como fase del proceso de transferencia, el intérprete selecciona el recurso que exprese con mayor fidelidad en la lengua meta el sentido de las expresiones de la lengua origen. La mejor manera de comprobar que la información recibida es correcta y satisfactoria es un feedback positivo por parte del receptor.
     p.mb-4 El cambio estructural de una lengua hablada como el español, que es lineal, a una lengua de señas con una estructura tridimensional y no verbal, requiere de la comprensión y análisis de lo que es aceptable socialmente entre la comunidad sorda y la oyente; así como de tener presente las situaciones comunicativas, los ambientes, las situaciones, las circunstancias y las condiciones durante el servicio de interpretación.
@@ -105,9 +105,10 @@
         .bloque-texto-b.color-secundario.p-4
           .bloque-texto-b__texto
             i.fas.fa-quote-left
-            h6.mb-4 “El que realiza la interpretación debe tener en cuenta por lo menos modelos cognitivos de pensamiento, modelos de interacción comunicativa y estrategias de interpretación para salvar diferencias situacionales”. 
+            p.mb-4 <b>“El que realiza la interpretación debe tener en cuenta por lo menos modelos cognitivos de pensamiento, modelos de interacción comunicativa y estrategias de interpretación para salvar diferencias situacionales”.</b> 
             br
-            p(style= "margin-left: 80%;").ms-5.ms-md-0 (Gauthier, 2016) 
+            br
+            p.flex-end.ms-5.ms-md-0.me-2 (Gauthier, 2016). 
             i.fas.fa-quote-right
 
    
@@ -121,7 +122,7 @@
     .row.mb-3
       .col-12.col-md-4
         .tarjeta.color-acento-botones.p-2
-          p.m-0.text-center <b>Características aptitudinales</b>
+          h3.m-0.text-center <b>Características aptitudinales</b>
 
     .tarjeta.bg_tarjetas_t1.p-4.mb-5
       .row.justify-content-center.align-items-center
@@ -134,7 +135,7 @@
     .row.mb-3
       .col-12.col-md-4
         .tarjeta.color-acento-botones.p-2
-          p.m-0.text-center <b>Características cognitivas</b>
+          h3.m-0.text-center <b>Características cognitivas</b>
 
     .tarjeta.bg_tarjetas_t1.p-4.mb-5
       .row.justify-content-center.align-items-center
@@ -166,7 +167,7 @@
     .row.mb-3
       .col-12.col-md-4
         .tarjeta.color-acento-botones.p-2
-          p.m-0.text-center <b>Características sociales</b>
+          h3.m-0.text-center <b>Características sociales</b>
 
     .tarjeta.bg_tarjetas_t1.p-4.mb-5
       .row.justify-content-center.align-items-center
@@ -198,7 +199,7 @@
     .row.mb-3
       .col-12.col-md-4
         .tarjeta.color-acento-botones.p-2
-          p.m-0.text-center <b>Características físicas</b>
+          h3.m-0.text-center <b>Características físicas</b>
 
     .tarjeta.bg_tarjetas_t1.p-4.mb-5
       .row.justify-content-center.align-items-center

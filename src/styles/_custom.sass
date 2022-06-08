@@ -6,13 +6,19 @@
   background-color:  #D7E5F1
 
 .img56
-  max-width: 56px
+  width: 56px
+
+.img263
+  max-width: 263px
 
 .height_1
   max-height: 89.16px
 
 .height_2
   height: 232px
+
+.height_3
+  height: 271px
 
 .tarjeta--boton 
     background-color: #CDDEED
@@ -31,13 +37,15 @@
     margin-left: 1.6em
 
 .bloque-texto-b.color-secundario:before 
-    background-color: #387DB8
-    margin-top: -19px
+    background-color: #D7E5F1
+    margin-top: -52px
 
 .fa-quote-left:before 
     font-size: 25px
 .fa-quote-right:before 
+    position: absolute
     font-size: 25px
+    bottom: 58px
 
 .bg_tarjetas_t1
   background-image: url("../assets/curso/tema1/img06.svg")
@@ -48,18 +56,17 @@
 .tarjeta.color-acento-botones 
     background-color: #CCE951
 
-.bg_slyder_t2
-  background-color: #CDDEED
-
 .bg_tarjetas_t2
   background-color: #CCE951
   border-radius: 10px
   height: 155px
-  @media screen and ( max-width: 420px )
-    height: 180px
+  @media screen and ( min-width: 360px )
+    height: 190px
 
 .margin_b1
-  margin-bottom: 4.5rem!important
+  margin-bottom: 3.5rem!important
+  @media screen and ( max-width: 420px )
+    margin-bottom: 5.5rem!important
 
 .margin_t1
   margin-top: 50px
@@ -72,9 +79,82 @@
 
 .bloque-texto-g__texto 
   width: 68%
-  @media screen and ( max-width: 420px )
+  @media screen and ( max-width: 992px )
     width: 100%
 
 .banner-interno__fondo
   background-image: url("../assets/curso/portada/banner-interno.svg")!important
 
+.bloque-texto-b i:last-of-type 
+    margin-left: 101%
+
+.flex-end
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: flex-end;
+  flex-direction: row;
+
+.bloque-texto-b:before 
+    top: 40%;
+    bottom: 55px;
+    left: 29%;
+    right: -30px;
+
+.img157 
+  max-width: 160px 
+  width: 160px
+
+.margin_center_tar_t6
+  margin-right: 4rem
+  @media screen and (max-width: 420px) 
+    margin-right: -7rem
+  
+.margin_tarjeta_t6
+  margin-right: 6rem
+  @media screen and (max-width: 420px) 
+    margin-right: -7rem
+
+.img-a 
+  display: block
+  margin: auto
+
+.img-t
+  width: auto
+  height: auto   
+
+.slyder-f__main 
+    width: 100%
+    margin-left: -14px
+    @media (max-width: $bp-max-xs)
+      width: 83%
+      margin-left: 10px
+
+.img_slyder-f
+  width: 270px !important
+  max-width: 270px
+  margin-left: -47px
+  @media (min-width: $bp-min-lg) and (max-width: $bp-max-xl)
+    width: 227px!important
+    max-width: 227px
+    margin-left: -44px
+  @media (max-width: $bp-max-xs)
+    width: 200px !important
+    max-width: 200px
+    margin-left: -38px
+  
+
+.fa-chevron-left:before 
+    margin-left: -73px
+    @media (max-width: $bp-max-xs)
+      margin-left: -1px
+  
+.fa-chevron-right:before 
+    margin-left: 22px
+    @media (max-width: $bp-max-xs)
+       margin-left: -7px
+
+.bg_slyder_t2
+  background-color: #CDDEED
+  height: 300px
+  
