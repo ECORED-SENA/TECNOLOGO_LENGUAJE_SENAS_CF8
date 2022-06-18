@@ -2,7 +2,7 @@ export default {
   global: {
     componenteFormativo: 'La interpretación y las técnicas de verificación',
     descripcionCurso:
-      'El intérprete como el mediador comunicativo y basado en su condición de ser biológico, psicológico y social, requiere poseer competencias que le permitan desempeñar su rol de manera óptima. Es así, como una preocupación destacable en el contexto colombiano es la formación de los intérpretes, con el fin de que estos respondan a las necesidades de los usuarios del servicio de interpretación considerando además que actualmente, este ejercicio laboral ha sido una labor que a lo largo de los últimos 20 años se ha catalogado como la prestación de un servicio de manera empírica.',
+      'El intérprete como mediador comunicativo y basado en su condición de ser biológico, psicológico y social, requiere poseer competencias que le permitan desempeñar su rol de manera óptima. Es así, como una preocupación destacable en el contexto colombiano es la formación de los intérpretes, con el fin de que estos respondan a las necesidades de los usuarios del servicio de interpretación considerando además que actualmente, este ejercicio laboral ha sido una labor que a lo largo de los últimos 20 años se ha catalogado como la prestación de un servicio de manera empírica.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.svg'),
   },
@@ -162,7 +162,7 @@ export default {
       referencia:
         'Burad, V. (2009). Una teoría interpretativa para el binomio lengua de señas-lengua hablada.',
       link:
-        'http://www.culturasorda.eu/resources/Burad_teoria_interpretativa_binomio_lengua_senas_lengua_hablada_2009.pdf',
+        'https://cultura-sorda.org/wp-content/uploads/2015/03/Burad_teoria_interpretativa_binomio_lengua_senas_lengua_hablada_2009.pdf',
     },
     {
       referencia:
@@ -220,17 +220,18 @@ export default {
   ],
   complementario: [
     {
-      texto:
+      tema: 'Binomio Lengua de Señas-lengua hablada',
+      referencia:
         'Burad, V. (2009). Una teoría interpretativa para el binomio lengua de señas-lengua hablada.',
       tipo: 'Artículo',
       link:
-        'http://www.culturasorda.eu/resources/Burad_teoria_interpretativa_binomio_lengua_senas_lengua_hablada_2009.pdf',
+        'https://cultura-sorda.org/wp-content/uploads/2015/03/Burad_teoria_interpretativa_binomio_lengua_senas_lengua_hablada_2009.pdf',
     },
   ],
   creditos: {
     liderEquipo: [
       {
-        nombre: 'Maria Camila Garcia Santamaria',
+        nombre: 'María Camila Garcia Santamaría',
         cargo: 'Líder del equipo',
         centro: 'Dirección General',
       },
@@ -238,18 +239,29 @@ export default {
     contenidoInstruccional: [
       {
         nombre: 'Rafael Neftalí Lizcano Reyes',
-        cargo: 'Asesor metodológico y pedagógico',
+        cargo: 'Asesor Pedagógico',
         centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Tania Yaneth Ramírez Benítez',
-        cargo: 'Soporte organizacional',
-        centro: 'Centro de Comercio y Servicios -     Regional Tolima',
+        nombre: 'Martha Isabel Martínez Vargas',
+        cargo: 'Productora audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Jhacesiz Mary Hincapié Atehortúa',
-        cargo: 'Instructora',
+        nombre: 'Luz Mila Pacheco Fuentes',
+        cargo: 'Diseñadora Instruccional',
+        centro: 'Centro de Diseño y Metrología - Regional Distrito Capital',
+      },
+      {
+        nombre: 'Adriana María Bustamante',
+        cargo: 'Profesional Diseño Curricular',
+        centro: 'Centro de Servicios de Salud - Regional Antioquia',
+      },
+      {
+        nombre: 'Germán Albeiro Saldarriga',
+        cargo: 'Instructor',
         centro: 'Centro de Servicios de Salud - Regional Antioquia',
       },
       {
@@ -258,31 +270,9 @@ export default {
         centro: 'Centro de Servicios de Salud - Regional Antioquia',
       },
       {
-        nombre: 'German Albeiro Saldarriga',
-        cargo: 'Instructor',
+        nombre: 'Jhacesiz Mary Hincapié Atehortúa',
+        cargo: 'Instructora',
         centro: 'Centro de Servicios de Salud - Regional Antioquia',
-      },
-      {
-        nombre: 'Adriana María Bustamante',
-        cargo: 'Profesional Diseño Curricular',
-        centro: 'Centro de Servicios de Salud - Regional Antioquia',
-      },
-      {
-        nombre: 'Luz Mila Pacheco Fuentes',
-        cargo: 'Diseñador Instruccional',
-        centro: 'Centro de Diseño y Metrología - Regional Distrito Capital',
-      },
-      {
-        nombre: 'Sergio Arturo Medina Castillo',
-        cargo: 'Evaluador Instruccional',
-        centro:
-          'Centro para la Industria de la Comunicación Gráfica - Regional Distrito Capital',
-      },
-      {
-        nombre: 'Julieth Paola Vital López',
-        cargo: 'Revisora de estilo',
-        centro:
-          'Centro para la Industria de la Comunicación Gráfica - Regional Distrito Capital',
       },
     ],
     desarrolloProducto: [
@@ -290,22 +280,22 @@ export default {
         nombre: 'Francisco José Lizcano Reyes',
         cargo: 'Responsable del equipo',
         centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Leyson Fabian Castaño Perez',
+        nombre: 'Leyson Fabián Castaño Pérez',
         cargo: 'Soporte organizacional',
-        centro: 'Centro de Comercio y Servicios Regional Tolima',
+        centro: 'Centro de Comercio y Servicios - Regional Tolima',
       },
       {
         nombre: 'Camilo Andrés Villamizar Lizcano',
-        cargo: 'Diseño Web & Producción audiovisual',
+        cargo: 'Diseño web & producción audiovisual',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
         nombre: 'Diana Carolina Acevedo Barón',
-        cargo: 'Diseño Web',
+        cargo: 'Diseño web',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
@@ -316,7 +306,7 @@ export default {
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Marcia Elizabeth Solano Alvarez',
+        nombre: 'Marcia Elizabeth Solano Álvarez',
         cargo: 'Desarrollo front-end',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
@@ -324,14 +314,14 @@ export default {
     ],
     gestoresRepositorio: [
       {
-        nombre: 'Ricardo Alfonso Gonzalez Vargas',
+        nombre: 'Ricardo Alfonso González Vargas',
         cargo: 'Validación de recursos',
         centro: 'Centro de Comercio y Servicios - Regional Tolima',
       },
       {
         nombre: 'Milady Tatiana Villamil Castellanos',
         cargo: 'Validación y vinculación en plataforma LMS',
-        centro: 'Centro de Comercio y Servicios Regional Tolima',
+        centro: 'Centro de Comercio y Servicios - Regional Tolima',
       },
     ],
   },

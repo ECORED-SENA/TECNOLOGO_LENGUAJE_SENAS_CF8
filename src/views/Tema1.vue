@@ -86,7 +86,7 @@
               p.m-0 Es claro y directo.
             li
               i.fas.far.fa-check
-              p.m-0 Es creativo
+              p.m-0 Es creativo.
             li
               i.fas.far.fa-check
               p.m-0 Es fiel al discurso.
@@ -153,7 +153,7 @@
               |  Dominio pleno de la lengua materna.
             li
               i.fas.far.fa-check
-              |  Conocimientos universales
+              |  Conocimientos universales.
             li
               i.fas.far.fa-check
               |  Saberes previos de los temas a interpretar.
@@ -182,7 +182,7 @@
               |  La escucha acertada.
             li
               i.fas.far.fa-check
-              |  Elocuencia
+              |  Elocuencia.
             li
               i.fas.far.fa-check
               |  Empatía con las partes involucradas.
