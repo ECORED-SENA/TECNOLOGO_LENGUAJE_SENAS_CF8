@@ -239,7 +239,7 @@ export default {
     contenidoInstruccional: [
       {
         nombre: 'Rafael Neftalí Lizcano Reyes',
-        cargo: 'Asesor Pedagógico',
+        cargo: 'Asesor pedagógico',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
@@ -251,12 +251,12 @@ export default {
       },
       {
         nombre: 'Luz Mila Pacheco Fuentes',
-        cargo: 'Diseñadora Instruccional',
+        cargo: 'Diseñadora instruccional',
         centro: 'Centro de Diseño y Metrología - Regional Distrito Capital',
       },
       {
         nombre: 'Adriana María Bustamante',
-        cargo: 'Profesional Diseño Curricular',
+        cargo: 'Profesional diseño curricular',
         centro: 'Centro de Servicios de Salud - Regional Antioquia',
       },
       {
