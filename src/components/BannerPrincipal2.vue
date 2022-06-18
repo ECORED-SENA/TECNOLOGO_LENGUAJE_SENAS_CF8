@@ -125,7 +125,7 @@ export default {
       padding-top: 1.5rem
       padding-bottom: 1.5rem
       @media (min-width: $bp-min-sm)
-        padding-top: 5rem!important
+        padding-top: 3rem!important
         padding-bottom: 3rem!important
 
 .imagen_flotante
@@ -180,13 +180,13 @@ export default {
     animation: float1 2.7s ease-in-out infinite alternate
     position: absolute
     width: 100px
-    bottom: 10rem
-    left: 436px
+    bottom: 9rem
+    left: 431px
     z-index: 1
     @media (min-width: $bp-min-lg) and (max-width: $bp-max-xl)
       width: 91px
-      left: 373px
-      bottom: 9rem
+      left: 368px
+      bottom: 8rem
   &_7
     animation: float1 3s ease-in-out infinite alternate
     position: absolute
